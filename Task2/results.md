@@ -1,9 +1,5 @@
 # Результаты тестирования производительности
 
-**Дата:** 2026-04-01  
-**Окружение:** macOS, Python 3.11, nginx 1.29.7, gunicorn 21.2.0  
-**Аппаратура:** MacBook Pro
-
 ## Тест 1: Статические файлы (nginx + public)
 **Endpoint:** `http://localhost:8080/public/test.txt`
 
