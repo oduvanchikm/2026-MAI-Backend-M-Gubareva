@@ -1,4 +1,4 @@
-from cache import LRUCache
+from Task1.cache import LRUCache
 
 
 def main():
