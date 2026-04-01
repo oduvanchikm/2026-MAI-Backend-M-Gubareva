@@ -14,13 +14,6 @@ def main():
 
     print(cache.get('Jesse'))
 
-    small_cache = LRUCache(2)
-    small_cache.set('key1', 'value1')
-    small_cache.set('key2', 'value2')
-    small_cache.set('key3', 'value3')
-    print(small_cache.get('key1'))
-    print(small_cache.get('key2'))
-
 
 if __name__ == "__main__":
     main()
