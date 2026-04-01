@@ -28,19 +28,14 @@ def generate_password():
 
     password = ''.join(password_list)
 
-    # Искусственная задержка 50ms
     time.sleep(0.05)
 
     return password
 
 
 def app(environ, start_response):
-    """WSGI приложение для генерации паролей"""
-
-    # Генерируем пароль
     password = generate_password()
 
-    # Формируем ответ
     response_body = f"Password: {password}\n"
 
     start_response("200 OK", [
